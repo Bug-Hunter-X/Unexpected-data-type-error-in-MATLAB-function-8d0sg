@@ -1,0 +1,1 @@
+This repository contains a MATLAB example demonstrating an unexpected data type error in a function. The function `myFunction` expects a numeric input, but the example code passes a string. This leads to an error because the comparison `input > 10` is not defined for string inputs. The `bugSolution.m` file shows a corrected version of the function with improved error handling.
